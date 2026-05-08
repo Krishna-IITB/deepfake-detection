@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data + model artifacts (don't commit big files)
+data/
+checkpoints/
+reports/
+runs/
+*.pt
+*.pth
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# TensorBoard
+events.out.tfevents.*
